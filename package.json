@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "env $(cat .env) nodemon server.js",
+    "knex": "env $(cat .env) knex"
+  },
+  "dependencies": {
+    "express": "^5.0.0-alpha.8",
+    "knex": "^1.0.3",
+    "objection": "^3.0.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
